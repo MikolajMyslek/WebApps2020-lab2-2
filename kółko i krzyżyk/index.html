@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head runat="server">
+    <title>Tic Tac Toe</title>
+    <script src="tictactoe.js"></script>
+    <style>
+        body {
+    background-color:white;
+}
+
+.x {
+  width:85px;
+  height:85px;
+  border: 5px solid #0026ff;
+  background: #FFFFFF;
+  font-size: 46pt;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+
+}
+    </style>
+</head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <div>
+            <table>
+                <tr>
+                    <td id="x11" class="x">&nbsp;</td>
+                    <td id="x12" class="x">&nbsp;</td>
+                    <td id="x13" class="x">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="x21" class="x">&nbsp;</td>
+                    <td id="x22" class="x">&nbsp;</td>
+                    <td id="x23" class="x">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="x31" class="x">&nbsp;</td>
+                    <td id="x32" class="x">&nbsp;</td>
+                    <td id="x33" class="x">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <br /><br />
+        <input id="reset" type="button" value="RESET" />
+        <br /><br />
+</body>
+</html>
+
+
