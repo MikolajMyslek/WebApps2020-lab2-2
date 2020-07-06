@@ -1,0 +1,9 @@
+@import 'list','form';
+@import 'skins2';
+body{
+    color: $body-color-white;
+    background:$body-color-black;
+    border-color:$borderColor;
+    border-radius:$borderradius;
+    padding: $padding;
+  }
